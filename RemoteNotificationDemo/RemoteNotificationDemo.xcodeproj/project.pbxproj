@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CD30F7C205130DE0073FFCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD30F7B205130DE0073FFCD /* AppDelegate.m */; };
+		4CD30F7F205130DE0073FFCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD30F7E205130DE0073FFCD /* ViewController.m */; };
+		4CD30F82205130DE0073FFCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD30F80205130DE0073FFCD /* Main.storyboard */; };
+		4CD30F84205130DE0073FFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD30F83205130DE0073FFCD /* Assets.xcassets */; };
+		4CD30F87205130DE0073FFCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD30F85205130DE0073FFCD /* LaunchScreen.storyboard */; };
+		4CD30F8A205130DE0073FFCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD30F89205130DE0073FFCD /* main.m */; };
+		4CD30F94205130DE0073FFCD /* RemoteNotificationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD30F93205130DE0073FFCD /* RemoteNotificationDemoTests.m */; };
+		4CD30F9F205130DE0073FFCD /* RemoteNotificationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD30F9E205130DE0073FFCD /* RemoteNotificationDemoUITests.m */; };
+		4CD30FAE2051323C0073FFCD /* ShandongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD30FAD2051323C0073FFCD /* ShandongViewController.m */; };
+		4CD30FB1205134B30073FFCD /* ShiJiazhuangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD30FB0205134B30073FFCD /* ShiJiazhuangViewController.m */; };
+		4CD30FBA20517C470073FFCD /* JinanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD30FB920517C470073FFCD /* JinanViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CD30F90205130DE0073FFCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CD30F6F205130DE0073FFCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CD30F76205130DE0073FFCD;
+			remoteInfo = RemoteNotificationDemo;
+		};
+		4CD30F9B205130DE0073FFCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CD30F6F205130DE0073FFCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CD30F76205130DE0073FFCD;
+			remoteInfo = RemoteNotificationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CD30F77205130DE0073FFCD /* RemoteNotificationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteNotificationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD30F7A205130DE0073FFCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CD30F7B205130DE0073FFCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CD30F7D205130DE0073FFCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CD30F7E205130DE0073FFCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CD30F81205130DE0073FFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CD30F83205130DE0073FFCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CD30F86205130DE0073FFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CD30F88205130DE0073FFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD30F89205130DE0073FFCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CD30F8F205130DE0073FFCD /* RemoteNotificationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteNotificationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD30F93205130DE0073FFCD /* RemoteNotificationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteNotificationDemoTests.m; sourceTree = "<group>"; };
+		4CD30F95205130DE0073FFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD30F9A205130DE0073FFCD /* RemoteNotificationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteNotificationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD30F9E205130DE0073FFCD /* RemoteNotificationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteNotificationDemoUITests.m; sourceTree = "<group>"; };
+		4CD30FA0205130DE0073FFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD30FAC2051323C0073FFCD /* ShandongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShandongViewController.h; sourceTree = "<group>"; };
+		4CD30FAD2051323C0073FFCD /* ShandongViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShandongViewController.m; sourceTree = "<group>"; };
+		4CD30FAF205134B30073FFCD /* ShiJiazhuangViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiJiazhuangViewController.h; sourceTree = "<group>"; };
+		4CD30FB0205134B30073FFCD /* ShiJiazhuangViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShiJiazhuangViewController.m; sourceTree = "<group>"; };
+		4CD30FB22051354E0073FFCD /* RemoteNotificationDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RemoteNotificationDemo.entitlements; sourceTree = "<group>"; };
+		4CD30FB4205136BC0073FFCD /* RNGlobalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNGlobalDefine.h; sourceTree = "<group>"; };
+		4CD30FB820517C470073FFCD /* JinanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JinanViewController.h; sourceTree = "<group>"; };
+		4CD30FB920517C470073FFCD /* JinanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JinanViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CD30F74205130DE0073FFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD30F8C205130DE0073FFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD30F97205130DE0073FFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CD30F6E205130DE0073FFCD = {
+			isa = PBXGroup;
+			children = (
+				4CD30F79205130DE0073FFCD /* RemoteNotificationDemo */,
+				4CD30F92205130DE0073FFCD /* RemoteNotificationDemoTests */,
+				4CD30F9D205130DE0073FFCD /* RemoteNotificationDemoUITests */,
+				4CD30F78205130DE0073FFCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CD30F78205130DE0073FFCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CD30F77205130DE0073FFCD /* RemoteNotificationDemo.app */,
+				4CD30F8F205130DE0073FFCD /* RemoteNotificationDemoTests.xctest */,
+				4CD30F9A205130DE0073FFCD /* RemoteNotificationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CD30F79205130DE0073FFCD /* RemoteNotificationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4CD30FB22051354E0073FFCD /* RemoteNotificationDemo.entitlements */,
+				4CD30F7A205130DE0073FFCD /* AppDelegate.h */,
+				4CD30F7B205130DE0073FFCD /* AppDelegate.m */,
+				4CD30F7D205130DE0073FFCD /* ViewController.h */,
+				4CD30F7E205130DE0073FFCD /* ViewController.m */,
+				4CD30F80205130DE0073FFCD /* Main.storyboard */,
+				4CD30F83205130DE0073FFCD /* Assets.xcassets */,
+				4CD30F85205130DE0073FFCD /* LaunchScreen.storyboard */,
+				4CD30F88205130DE0073FFCD /* Info.plist */,
+				4CD30F89205130DE0073FFCD /* main.m */,
+				4CD30FAC2051323C0073FFCD /* ShandongViewController.h */,
+				4CD30FAD2051323C0073FFCD /* ShandongViewController.m */,
+				4CD30FAF205134B30073FFCD /* ShiJiazhuangViewController.h */,
+				4CD30FB0205134B30073FFCD /* ShiJiazhuangViewController.m */,
+				4CD30FB4205136BC0073FFCD /* RNGlobalDefine.h */,
+				4CD30FB820517C470073FFCD /* JinanViewController.h */,
+				4CD30FB920517C470073FFCD /* JinanViewController.m */,
+			);
+			path = RemoteNotificationDemo;
+			sourceTree = "<group>";
+		};
+		4CD30F92205130DE0073FFCD /* RemoteNotificationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CD30F93205130DE0073FFCD /* RemoteNotificationDemoTests.m */,
+				4CD30F95205130DE0073FFCD /* Info.plist */,
+			);
+			path = RemoteNotificationDemoTests;
+			sourceTree = "<group>";
+		};
+		4CD30F9D205130DE0073FFCD /* RemoteNotificationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CD30F9E205130DE0073FFCD /* RemoteNotificationDemoUITests.m */,
+				4CD30FA0205130DE0073FFCD /* Info.plist */,
+			);
+			path = RemoteNotificationDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CD30F76205130DE0073FFCD /* RemoteNotificationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CD30FA3205130DE0073FFCD /* Build configuration list for PBXNativeTarget "RemoteNotificationDemo" */;
+			buildPhases = (
+				4CD30F73205130DE0073FFCD /* Sources */,
+				4CD30F74205130DE0073FFCD /* Frameworks */,
+				4CD30F75205130DE0073FFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteNotificationDemo;
+			productName = RemoteNotificationDemo;
+			productReference = 4CD30F77205130DE0073FFCD /* RemoteNotificationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CD30F8E205130DE0073FFCD /* RemoteNotificationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CD30FA6205130DE0073FFCD /* Build configuration list for PBXNativeTarget "RemoteNotificationDemoTests" */;
+			buildPhases = (
+				4CD30F8B205130DE0073FFCD /* Sources */,
+				4CD30F8C205130DE0073FFCD /* Frameworks */,
+				4CD30F8D205130DE0073FFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CD30F91205130DE0073FFCD /* PBXTargetDependency */,
+			);
+			name = RemoteNotificationDemoTests;
+			productName = RemoteNotificationDemoTests;
+			productReference = 4CD30F8F205130DE0073FFCD /* RemoteNotificationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CD30F99205130DE0073FFCD /* RemoteNotificationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CD30FA9205130DE0073FFCD /* Build configuration list for PBXNativeTarget "RemoteNotificationDemoUITests" */;
+			buildPhases = (
+				4CD30F96205130DE0073FFCD /* Sources */,
+				4CD30F97205130DE0073FFCD /* Frameworks */,
+				4CD30F98205130DE0073FFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CD30F9C205130DE0073FFCD /* PBXTargetDependency */,
+			);
+			name = RemoteNotificationDemoUITests;
+			productName = RemoteNotificationDemoUITests;
+			productReference = 4CD30F9A205130DE0073FFCD /* RemoteNotificationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CD30F6F205130DE0073FFCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = coolpeng;
+				TargetAttributes = {
+					4CD30F76205130DE0073FFCD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					4CD30F8E205130DE0073FFCD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4CD30F76205130DE0073FFCD;
+					};
+					4CD30F99205130DE0073FFCD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4CD30F76205130DE0073FFCD;
+					};
+				};
+			};
+			buildConfigurationList = 4CD30F72205130DE0073FFCD /* Build configuration list for PBXProject "RemoteNotificationDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CD30F6E205130DE0073FFCD;
+			productRefGroup = 4CD30F78205130DE0073FFCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CD30F76205130DE0073FFCD /* RemoteNotificationDemo */,
+				4CD30F8E205130DE0073FFCD /* RemoteNotificationDemoTests */,
+				4CD30F99205130DE0073FFCD /* RemoteNotificationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CD30F75205130DE0073FFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD30F87205130DE0073FFCD /* LaunchScreen.storyboard in Resources */,
+				4CD30F84205130DE0073FFCD /* Assets.xcassets in Resources */,
+				4CD30F82205130DE0073FFCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD30F8D205130DE0073FFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD30F98205130DE0073FFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CD30F73205130DE0073FFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD30FAE2051323C0073FFCD /* ShandongViewController.m in Sources */,
+				4CD30F7F205130DE0073FFCD /* ViewController.m in Sources */,
+				4CD30F8A205130DE0073FFCD /* main.m in Sources */,
+				4CD30F7C205130DE0073FFCD /* AppDelegate.m in Sources */,
+				4CD30FB1205134B30073FFCD /* ShiJiazhuangViewController.m in Sources */,
+				4CD30FBA20517C470073FFCD /* JinanViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD30F8B205130DE0073FFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD30F94205130DE0073FFCD /* RemoteNotificationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD30F96205130DE0073FFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD30F9F205130DE0073FFCD /* RemoteNotificationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CD30F91205130DE0073FFCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CD30F76205130DE0073FFCD /* RemoteNotificationDemo */;
+			targetProxy = 4CD30F90205130DE0073FFCD /* PBXContainerItemProxy */;
+		};
+		4CD30F9C205130DE0073FFCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CD30F76205130DE0073FFCD /* RemoteNotificationDemo */;
+			targetProxy = 4CD30F9B205130DE0073FFCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CD30F80205130DE0073FFCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CD30F81205130DE0073FFCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CD30F85205130DE0073FFCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CD30F86205130DE0073FFCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CD30FA1205130DE0073FFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CD30FA2205130DE0073FFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CD30FA4205130DE0073FFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RemoteNotificationDemo/RemoteNotificationDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4A5W773L4;
+				INFOPLIST_FILE = RemoteNotificationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coolpeng.RemoteNotificationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CD30FA5205130DE0073FFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RemoteNotificationDemo/RemoteNotificationDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4A5W773L4;
+				INFOPLIST_FILE = RemoteNotificationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coolpeng.RemoteNotificationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CD30FA7205130DE0073FFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4A5W773L4;
+				INFOPLIST_FILE = RemoteNotificationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coolpeng.RemoteNotificationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteNotificationDemo.app/RemoteNotificationDemo";
+			};
+			name = Debug;
+		};
+		4CD30FA8205130DE0073FFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4A5W773L4;
+				INFOPLIST_FILE = RemoteNotificationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coolpeng.RemoteNotificationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteNotificationDemo.app/RemoteNotificationDemo";
+			};
+			name = Release;
+		};
+		4CD30FAA205130DE0073FFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4A5W773L4;
+				INFOPLIST_FILE = RemoteNotificationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coolpeng.RemoteNotificationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemoteNotificationDemo;
+			};
+			name = Debug;
+		};
+		4CD30FAB205130DE0073FFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4A5W773L4;
+				INFOPLIST_FILE = RemoteNotificationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coolpeng.RemoteNotificationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemoteNotificationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CD30F72205130DE0073FFCD /* Build configuration list for PBXProject "RemoteNotificationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD30FA1205130DE0073FFCD /* Debug */,
+				4CD30FA2205130DE0073FFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CD30FA3205130DE0073FFCD /* Build configuration list for PBXNativeTarget "RemoteNotificationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD30FA4205130DE0073FFCD /* Debug */,
+				4CD30FA5205130DE0073FFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CD30FA6205130DE0073FFCD /* Build configuration list for PBXNativeTarget "RemoteNotificationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD30FA7205130DE0073FFCD /* Debug */,
+				4CD30FA8205130DE0073FFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CD30FA9205130DE0073FFCD /* Build configuration list for PBXNativeTarget "RemoteNotificationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD30FAA205130DE0073FFCD /* Debug */,
+				4CD30FAB205130DE0073FFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CD30F6F205130DE0073FFCD /* Project object */;
+}
